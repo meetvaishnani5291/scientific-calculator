@@ -59,3 +59,25 @@ body {
       font-size: medium;
       font-weight: 100;
   }
+  .dropdown1 {
+    width: 20rem;
+    position: absolute;
+    opacity: 10;
+    background-color: #f2f2f2;
+  }
+
+  .btnd{
+    height: 50px;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 3px;
+  }
+  /* .main-section {
+    position: relative;
+  } */
+
+  .dropdown1-1, .dropdown1-2, .dropdown1-3, .dropdown1-4 {
+    display: none;
+  }
