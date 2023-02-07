@@ -104,3 +104,6 @@ body {
   .dropdown1-1, .dropdown1-2, .dropdown1-3, .dropdown1-4 {
     display: none;
   }
+  .hide-btn{
+    display: none;
+  }
