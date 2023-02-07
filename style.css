@@ -2,6 +2,7 @@ body {
     color: #232323;
     font-weight: 500;
     font-size: large;
+    cursor: pointer;
   }
   .calculator {
     width: 500px;
@@ -37,7 +38,28 @@ body {
     display: flex;
     align-items: left;
   }
-  
+  .input {
+    display: block;
+    height: 4rem;
+    width: 99%;
+    text-align: right;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 1rem;
+    outline: none;
+    text-decoration: none;
+  }
+  .answer {
+    display: block;
+    height: 4rem;
+    width: 99%;
+    text-align: right;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 2rem;
+    outline: none;
+    text-decoration: none;
+  }
   .btn-others {
       height: 50px;
       width: 19%;
