@@ -1,164 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="calculator">
-      <input type="text" value="11111" class="previous-operation" disabled>
-      <input type="text" value="11111" class="current-operation" disabled>
-      <div class="rowu">
-        <div class="btn-others degree-btn">DEG</div>
-        <div class="btn-others notation-btn">F-E</div>
-      </div>
 
-      <div class="rowu">
-        <div class="btn-others mclear-btn">MC</div>
-        <div class="btn-others mread-btn">MR</div>
-        <div class="btn-others madd-btn">M+</div>
-        <div class="btn-others msubtract-btn">M-</div>
-        <div class="btn-others mstore-btn">MS</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="calculator">
+    <input type="text" value="11111" class="previous-operation" disabled>
+    <input type="text" value="11111" class="current-operation" disabled>
+    <div class="rowu">
+      <div class="btn-others degree-btn">DEG</div>
+      <div class="btn-others notation-btn">F-E</div>
+    </div>
+
+    <div class="rowu">
+      <div class="btn-others mclear-btn">MC</div>
+      <div class="btn-others mread-btn">MR</div>
+      <div class="btn-others madd-btn">M+</div>
+      <div class="btn-others msubtract-btn">M-</div>
+      <div class="btn-others mstore-btn">MS</div>
+    </div>
+    <div class="rowu">
+      <div class="btn-others2 trigonometry-btn">
+        &#x25FF;
+        <span>&nbsp;&nbsp;</span>
+        <span>Trigonometry&nbsp;
+          <i class="fa-solid fa-chevron-down"></i>
+        </span>
       </div>
-      <div class="rowu">
-        <div class="btn-others2 trigonometry-btn">
-            &#x25FF;
-            <span >&nbsp;&nbsp;</span>
-            <span>Trigonometry&nbsp;
-                <i class="fa-solid fa-chevron-down"></i>
-            </span>
-        </div>
-        <div class="btn-others2 functions-btn">
-            &#402;
-            <span >
-                &nbsp;&nbsp;Functions&nbsp;
-                <i class="fa-solid fa-chevron-down"></i>
-            </span>
-        </div>
-      </div>
-      <div class="mainsection">
-        <div class="dropdown1 hide-btn">
-          <div class="dropdown1-1">
-            <div class="rowu">
-              <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
-              <div class="btnd sin-btn" id="sin">sin</div>
-              <div class="btnd cos-btn">cos</div>
-              <div class="btnd tan-btn">tan</div>
-            </div>
-            <div class="rowu">
-              <div class="btnd hyp-btn">hyp</div>
-              <div class="btnd sec-btn">sec</div>
-              <div class="btnd csc-btn">csc</div>
-              <div class="btnd cot-btn">cot</div>
-            </div>
-          </div>
-          <div class="dropdown1-2">
-            <div class="rowu">
-              <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
-              <div class="btnd sini-btn"><span>sin<sup>-1</sup></span></div>
-              <div class="btnd cosi-btn"><span>cos<sup>-1</sup></span></div>
-              <div class="btnd tani-btn"><span>tan<sup>-1</sup></span></div>
-            </div>
-            <div class="rowu">
-              <div class="btnd hyp-btn">hyp</div>
-              <div class="btnd seci-btn"><span>sec<sup>-1</sup></span></div>
-              <div class="btnd csci-btn"><span>csc<sup>-1</sup></span></div>
-              <div class="btnd coti-btn"><span>cot<sup>-1</sup></span></div>
-            </div>
-          </div>
-          <div class="dropdown1-3">
-            <div class="rowu">
-              <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
-              <div class="btnd sinh-btn">sinh</div>
-              <div class="btnd cosh-btn">cosh</div>
-              <div class="btnd tanh-btn">tanh</div>
-            </div>
-            <div class="rowu">
-              <div class="btnd hyp-btn">hyp</div>
-              <div class="btnd sech-btn">sech</div>
-              <div class="btnd csch-btn">csch</div>
-              <div class="btnd coth-btn">coth</div>
-            </div>
-          </div>
-          <div class="dropdown1-4">
-            <div class="rowu">
-              <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
-              <div class="btnd sinhi-btn"><span>sinh<sup>-1</sup></span></div>
-              <div class="btnd coshi-btn"><span>cosh<sup>-1</sup></span></div>
-              <div class="btnd tanhi-btn"><span>tanh<sup>-1</sup></span></div>
-            </div>
-            <div class="rowu">
-              <div class="btnd hyp-btn">hyp</div>
-              <div class="btnd sechi-btn"><span>sech<sup>-1</sup></span></div>
-              <div class="btnd cschi-btn"><span>csch<sup>-1</sup></span></div>
-              <div class="btnd cothi-btn"><span>coth<sup>-1</sup></span></div>
-            </div>
-          </div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main second-btn"><span>2<sup>nd</sup></span></div>
-          <div class="btn btn-main const-pi">&#x3C0;</i></div>
-          <div class="btn btn-main const-e">e</div>
-          <div class="btn btn-main CE">CE</div>
-          <div class="btn btn-main back-space">
-              <img src="img/clear.png" width="33%" height="50%"></div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main square second"><span>x<sup>2</sup></span></div>
-          <div class="btn btn-main cube-btn second hide-btn"><span>x<sup>3</sup></span></div>
-          <div class="btn btn-main inverse"><span><sup>1</sup>&#8725;<sub>x</sub></span></div>
-          <div class="btn btn-main abs">&#8739;x&#8739;</div>
-          <div class="btn btn-main exp">exp</div>
-          <div class="btn btn-main mod">mod</div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main underoot second">&#8730;x</div>
-          <div class="btn btn-main cuberoot-btn second hide-btn"><span><sup>3</sup>&#8730;x</span></div>
-          <div class="btn btn-main parenthesis-open">&#40;</div>
-          <div class="btn btn-main parenthesis-close">&#41;</div>
-          <div class="btn btn-main factorial">n!</div>
-          <div class="btn btn-main operator">/</div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main x-power second"><span>x<sup>y</sup></span></div>
-          <div class="btn btn-main nthroot-btn second hide-btn"><span><sup>y</sup>&#8730;x</span></div>
-          <div class="btn btn-num number">7</div>
-          <div class="btn btn-num number">8</div>
-          <div class="btn btn-num number">9</div>
-          <div class="btn btn-main operator">*</div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main ten-power second"><span>10<sup>x</sup></span></div>
-          <div class="btn btn-main twopower-btn second hide-btn"><span>2<sup>x</sup></span></div>
-          <div class="btn btn-num number">4</div>
-          <div class="btn btn-num number">5</div>
-          <div class="btn btn-num number">6</div>
-          <div class="btn btn-main operator">-</div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main log second">log</div>
-          <div class="btn btn-main logybase-btn second hide-btn"><span>log<sub>y</sub>x</span></div>
-          <div class="btn btn-num number">1</div>
-          <div class="btn btn-num number">2</div>
-          <div class="btn btn-num number">3</div>
-          <div class="btn btn-main operator">+</div>
-        </div>
-        <div class="rowu">
-          <div class="btn btn-main ln second">ln</div>
-          <div class="btn btn-main epower-btn second hide-btn"><span>e<sup>x</sup></span></div>
-          <div class="btn btn-num plus-or-minus"><span><sup>+</sup>/<sub>-</sub></span></div>
-          <div class="btn btn-num number">0</div>
-          <div class="btn btn-num operator">.</div>
-          <div class="btn btn-main equalto">=</div>
-        </div>
+      <div class="btn-others2 functions-btn">
+        &#402;
+        <span>
+          &nbsp;&nbsp;Functions&nbsp;
+          <i class="fa-solid fa-chevron-down"></i>
+        </span>
       </div>
     </div>
-  </body>
+    <div class="mainsection">
+      <div class="dropdown1 hide-btn">
+        <div class="dropdown1-1">
+          <div class="rowu">
+            <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
+            <div class="btnd sin-btn trigonometry" id="sin">sin</div>
+            <div class="btnd cos-btn trigonometry" id="cos">cos</div>
+            <div class="btnd tan-btn trigonometry" id="tan">tan</div>
+          </div>
+          <div class="rowu">
+            <div class="btnd hyp-btn">hyp</div>
+            <div class="btnd sec-btn trigonometryOther" id="cos">sec</div>
+            <div class="btnd csc-btn trigonometryOther" id="sin">csc</div>
+            <div class="btnd cot-btn trigonometryOther" id="tan">cot</div>
+          </div>
+        </div>
+        <div class="dropdown1-2">
+          <div class="rowu">
+            <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
+            <div class="btnd sini-btn trigonometry" id="asin"><span>sin<sup>-1</sup></span></div>
+            <div class="btnd cosi-btn trigonometry" id="acos"><span>cos<sup>-1</sup></span></div>
+            <div class="btnd tani-btn trigonometry" id="atan"><span>tan<sup>-1</sup></span></div>
+          </div>
+          <div class="rowu">
+            <div class="btnd hyp-btn">hyp</div>
+            <div class="btnd seci-btn trigonometryOther" id="acos"><span>sec<sup>-1</sup></span></div>
+            <div class="btnd csci-btn trigonometryOther" id="asin"><span>csc<sup>-1</sup></span></div>
+            <div class="btnd coti-btn trigonometryOther" id="atan"><span>cot<sup>-1</sup></span></div>
+          </div>
+        </div>
+        <div class="dropdown1-3">
+          <div class="rowu">
+            <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
+            <div class="btnd sinh-btn trigonometry" id="sinh">sinh</div>
+            <div class="btnd cosh-btn trigonometry" id="cosh">cosh</div>
+            <div class="btnd tanh-btn trigonometry" id="tanh">tanh</div>
+          </div>
+          <div class="rowu">
+            <div class="btnd hyp-btn ">hyp</div>
+            <div class="btnd sech-btn trigonometryOther" id="cosh">sech</div>
+            <div class="btnd csch-btn trigonometryOther" id="sinh">csch</div>
+            <div class="btnd coth-btn trigonometryOther" id="tanh">coth</div>
+          </div>
+        </div>
+        <div class="dropdown1-4">
+          <div class="rowu">
+            <div class="btnd trigonometry-second-btn"><span>2<sup>nd</sup></span></div>
+            <div class="btnd sinhi-btn trigonometry" id="asinh"><span>sinh<sup>-1</sup></span></div>
+            <div class="btnd coshi-btn trigonometry" id="acosh"><span>cosh<sup>-1</sup></span></div>
+            <div class="btnd tanhi-btn trigonometry" id="atanh"><span>tanh<sup>-1</sup></span></div>
+          </div>
+          <div class="rowu">
+            <div class="btnd hyp-btn">hyp</div>
+            <div class="btnd sechi-btn trigonometryOther" id="acosh"><span>sech<sup>-1</sup></span></div>
+            <div class="btnd cschi-btn trigonometryOther" id="asinh"><span>csch<sup>-1</sup></span></div>
+            <div class="btnd cothi-btn trigonometryOther" id="atanh"><span>coth<sup>-1</sup></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main second-btn"><span>2<sup>nd</sup></span></div>
+        <div class="btn btn-main const-pi">&#x3C0;</i></div>
+        <div class="btn btn-main const-e">e</div>
+        <div class="btn btn-main CE">CE</div>
+        <div class="btn btn-main back-space">
+          <img src="img/clear.png" width="33%" height="50%">
+        </div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main square second"><span>x<sup>2</sup></span></div>
+        <div class="btn btn-main cube-btn second hide-btn"><span>x<sup>3</sup></span></div>
+        <div class="btn btn-main inverse"><span><sup>1</sup>&#8725;<sub>x</sub></span></div>
+        <div class="btn btn-main abs">&#8739;x&#8739;</div>
+        <div class="btn btn-main exp">exp</div>
+        <div class="btn btn-main mod">mod</div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main underoot second">&#8730;x</div>
+        <div class="btn btn-main cuberoot-btn second hide-btn"><span><sup>3</sup>&#8730;x</span></div>
+        <div class="btn btn-main parenthesis-open">&#40;</div>
+        <div class="btn btn-main parenthesis-close">&#41;</div>
+        <div class="btn btn-main factorial">n!</div>
+        <div class="btn btn-main operator">/</div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main x-power second"><span>x<sup>y</sup></span></div>
+        <div class="btn btn-main nthroot-btn second hide-btn"><span><sup>y</sup>&#8730;x</span></div>
+        <div class="btn btn-num number">7</div>
+        <div class="btn btn-num number">8</div>
+        <div class="btn btn-num number">9</div>
+        <div class="btn btn-main operator">*</div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main ten-power second"><span>10<sup>x</sup></span></div>
+        <div class="btn btn-main twopower-btn second hide-btn"><span>2<sup>x</sup></span></div>
+        <div class="btn btn-num number">4</div>
+        <div class="btn btn-num number">5</div>
+        <div class="btn btn-num number">6</div>
+        <div class="btn btn-main operator">-</div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main log second">log</div>
+        <div class="btn btn-main logybase-btn second hide-btn"><span>log<sub>y</sub>x</span></div>
+        <div class="btn btn-num number">1</div>
+        <div class="btn btn-num number">2</div>
+        <div class="btn btn-num number">3</div>
+        <div class="btn btn-main operator">+</div>
+      </div>
+      <div class="rowu">
+        <div class="btn btn-main ln second">ln</div>
+        <div class="btn btn-main epower-btn second hide-btn"><span>e<sup>x</sup></span></div>
+        <div class="btn btn-num plus-or-minus"><span><sup>+</sup>/<sub>-</sub></span></div>
+        <div class="btn btn-num number">0</div>
+        <div class="btn btn-num operator">.</div>
+        <div class="btn btn-main equalto">=</div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
