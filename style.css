@@ -1,109 +1,110 @@
 body {
-    color: #232323;
-    font-weight: 500;
-    font-size: large;
-    cursor: pointer;
-  }
-  .calculator {
-    width: 500px;
-    background-color: #f2f2f2;
-    margin: auto;
-  }
-  
-  .functions {
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-  }
-  
-  .btn {
-    height: 50px;
-    width: 19%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 3px;
-  }
-  .btn-num {
-    background-color: #fdfdfd;
-    font-weight: 600;
-    font-size: x-large;
-    font-family: fantasy;
-  }
-  
-  .btn-main {
-    background-color: #f7f7f7;
-  }
-  .rowu {
-    display: flex;
-    align-items: left;
-  }
-  .previous-operation {
-    display: block;
-    height: 4rem;
-    width: 99%;
-    text-align: right;
-    border: none;
-    background-color: #f2f2f2;
-    font-size: 1rem;
-    outline: none;
-    text-decoration: none;
-  }
-  .current-operation {
-    display: block;
-    height: 4rem;
-    width: 99%;
-    text-align: right;
-    border: none;
-    background-color: #f2f2f2;
-    font-size: 2rem;
-    outline: none;
-    text-decoration: none;
-    overflow: visible;
-  }
-  .btn-others {
-      height: 50px;
-      width: 19%;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      margin: 3px;
-      font-size: medium;
-      font-weight: bold;
-  }
-  .btn-others2 {
-  
-      height: 35px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      margin: 10px;
-      margin-left: 25px;
-      font-size: medium;
-      font-weight: 100;
-  }
-  .dropdown1 {
-    width: 20rem;
-    position: absolute;
-    opacity: 10;
-    background-color: #f2f2f2;
-  }
+  color: #232323;
+  font-weight: 500;
+  font-size: large;
+  cursor: pointer;
+}
+.calculator {
+  width: 500px;
+  background-color: #f2f2f2;
+  margin: auto;
+}
 
-  .btnd{
-    height: 50px;
-    width: 25%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: 3px;
-  }
-  /* .main-section {
+.functions {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.btn {
+  height: 50px;
+  width: 19%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 3px;
+}
+.btn-num {
+  background-color: #fdfdfd;
+  font-weight: 600;
+  font-size: x-large;
+  font-family: fantasy;
+}
+
+.btn-main {
+  background-color: #f7f7f7;
+}
+.rowu {
+  display: flex;
+  align-items: left;
+}
+.previous-operation {
+  display: block;
+  height: 4rem;
+  width: 99%;
+  text-align: right;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 1rem;
+  outline: none;
+  text-decoration: none;
+}
+.current-operation {
+  display: block;
+  height: 4rem;
+  width: 99%;
+  text-align: right;
+  border: none;
+  background-color: #f2f2f2;
+  font-size: 2rem;
+  outline: none;
+  text-decoration: none;
+  overflow: visible;
+}
+.btn-others {
+  height: 50px;
+  width: 19%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 3px;
+  font-size: medium;
+  font-weight: bold;
+}
+.btn-others2 {
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+  margin-left: 25px;
+  font-size: medium;
+  font-weight: 100;
+}
+.dropdown1 {
+  width: 20rem;
+  position: absolute;
+  opacity: 10;
+  background-color: #f2f2f2;
+}
+
+.btnd {
+  height: 50px;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 3px;
+}
+/* .main-section {
     position: relative;
   } */
 
-  .dropdown1-1, .dropdown1-2, .dropdown1-3, .dropdown1-4 {
-    display: none;
-  }
-  .hide-btn{
-    display: none;
-  }
+.dropdown1-2,
+.dropdown1-3,
+.dropdown1-4 {
+  display: none;
+}
+.hide-btn {
+  display: none;
+}
