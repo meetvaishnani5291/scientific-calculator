@@ -28,7 +28,6 @@ body {
   background-color: #fdfdfd;
   font-weight: 600;
   font-size: x-large;
-  font-family: fantasy;
 }
 
 .btn-main {
@@ -81,13 +80,25 @@ body {
   font-size: medium;
   font-weight: 100;
 }
-.dropdown1 {
+.dropdown1,
+.dropdown2 {
   width: 20rem;
   position: absolute;
   opacity: 10;
   background-color: #f2f2f2;
 }
-
+.dropdown2 {
+  width: 13rem;
+  margin-left: 175px;
+}
+.btnd2 {
+  height: 50px;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 3px;
+}
 .btnd {
   height: 50px;
   width: 25%;
